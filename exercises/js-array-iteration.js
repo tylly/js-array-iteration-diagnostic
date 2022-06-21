@@ -9,24 +9,24 @@ TEST: To test run the commands `npm run test` in your terminal
       Don't worry about capitalization.
 */
 
+const holidays = [
+	{ name: 'valentines day', month: 'february' },
+	{ name: 'cinco de mayo', month: 'may' },
+	{ name: 'halloween', month: 'october' },
+]
+
 /*
 Question 1
-
-const holidays = [
-  {name: 'valentines day', month: 'february'},
-  {name: 'cinco de mayo', month: 'may'},
-  {name: 'halloween', month: 'october'}
-]
 
 Given the array above, return the element in the `holidays` array that contains the value of `may` in the `month` key.
 */
 const mayHoliday = holidays.find(() => {
 })
 
+const words = ['cat', 'bath', 'orange', 'tap', 'bay', 'ha', 'extravagant']
+
 /*
 Question 2
-
-const words = ['cat', 'bath', 'orange', 'tap', 'bay', 'ha', 'extravagant']
 
 Given the array above, return all elements in the `words` array that have less than 4 characters. 
 */
@@ -56,18 +56,18 @@ const doesAnyWordContainX = words.some(() => {
 
 })
 
+const developersArray = [
+	{ name: 'ralph', language: 'javascript' },
+	{ name: 'gretchen', language: 'javascript' },
+	{ name: 'alice', language: 'ruby' },
+	{ name: 'mohammed', language: 'javascript' },
+	{ name: 'pat', language: 'ruby' },
+	{ name: 'taylor', language: 'ruby' },
+	{ name: 'hideo', language: 'javascript' },
+]
+
 /*
 Question 5
-
-const developersArray = [
-  {name: 'ralph', language: 'javascript'},
-  {name: 'gretchen', language: 'javascript'},
-  {name: 'alice', language: 'ruby'},
-  {name: 'mohammed', language: 'javascript'},
-  {name: 'pat', language: 'ruby'},
-  {name: 'taylor', language: 'ruby'},
-  {name: 'hideo', language: 'javascript'}
-]
 
 Given the array above, return an object that has two keys, `javascript` and `ruby`. 
 
