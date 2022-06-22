@@ -39,7 +39,7 @@ Question 3
 
 const words = ['cat', 'bath', 'orange', 'tap', 'bay', 'ha', 'extravagant']
 
-Given the array above, return a boolean if all of the strings in the `words` array contain the letter `a`. 
+Given the array above, return true if all of the strings in the `words` array contain the letter `a`. 
 */
 const doesEveryWordContainA = words.every(() => {
 
@@ -50,7 +50,7 @@ Question 4
 
 const words = ['cat', 'bath', 'orange', 'tap', 'bay', 'ha', 'extravagant']
 
-Given the array above, return a boolean if any of the strings in the `words` array contain the letter `x`. 
+Given the array above, return true if any of the strings in the `words` array contain the letter `x`. 
 */
 const doesAnyWordContainX = words.some(() => {
 
